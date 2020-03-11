@@ -190,8 +190,8 @@
                 <ul>
                     <li>掌握JAVA基础知识:了解容器相关知识如<mark>HashMap,ConcurrentHashMap</mark>;锁相关知识如<mark>Lock,Synchronized</mark>.</li>
                     <li>了解JAVA高级知识,如<mark>多线程开发,JVM</mark>等.</li>
-                    <li>可熟练应用主流框架:<mark>Mybatis,Spring,SpirngBoot,Spring Cloud</marl>的相关组件.</li>
-                    <li>熟悉<mark>Mysql</mark>相关优化,可在实际生产中进行实践.了解<mark>Redis</mark>的相关使用.</li>
+                    <li>可熟练应用主流框架:<mark>Mybatis,Spring,SpirngBoot,Spring Cloud</marl>的相关组件.有实际开发经验</li>
+                    <li>熟悉<mark>Mysql</mark>相关优化,及<mark>Redis</mark>的相关使用,可在实际生产中进行实践.</li>
                     <li>了解高并发相关基础知识,如<mark>Elasticsearch,Nginx,Kafka</mark>.</li>
                 </ul>
             </section>
@@ -208,10 +208,13 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;<time>2019.04.01 ---- 今日</time>
                         </h2>
                         <br>
-                        <h3><b>国家车辆事故深度调查体系 </b><a href="https://www.nais.org.cn">项目地址</a></h3> 
+                        <h3><b>国家车辆事故深度调查体系（NAIS） </b><a href="https://www.nais.org.cn">项目地址</a></h3> 
                         <ul class="info-content">
                             <li>项目背景:<br> &nbsp;&nbsp;&nbsp;&nbsp;
-                                是<a href="https://www.qcsanbao.cn/">中国汽车三包网</a>下的子网站,主要功能是记录国内车辆交通事故发生的现场条件,交予专业人员进行鉴别,录入.审核.主要的技术栈是<mark>SSM+Oracle</mark></li>
+                               1.NAIS是<a href="https://www.qcsanbao.cn/">中国汽车三包网</a>下的子网站，主要功能是记录国内车辆交通事故发生的现场条件,交予专业人员进行鉴别,录入.审核.主要的技术栈是<mark>SpringBoot+Oracle</mark>
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                                2.除了NAIS之外，三包网还涉及三包专家系统（4个JAVA项目）,召回平台(3个.NET项目)<a href="https://www.dpac.org.cn/">跳转链接</a>,项目之间会有联动，因此除了NAIS之外，还会维护JAVA项目。.NET比较成熟，大部分情况不需要去处理，年前是修改了一波，添加了<mark>OCR图文识别及境外召回说明反馈功能需求<mark>
+                           </li>
                             <li>工作内容:<br>&nbsp;&nbsp;&nbsp;&nbsp;
                                 1.优化车辆交通事故数据导出.涉及1张主表及附属31张表的数据,单表字段约50左右,主表月增加约为1000条数据.接手前,因数据计算量大导致内存溢出,优化后,导出时间由二十分钟降低到现在5分钟.<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -227,7 +230,7 @@
                         <h3><b>E-Link</b> <a href="http://www.hxyl.com.cn/jbgn/index.jspx">产品地址</a></h3> 
                         <ul class="info-content">
                             <li>产品介绍:<br> &nbsp;&nbsp;&nbsp;&nbsp;
-                                是公司的主要产品,类型为即时通讯软件,支持多环境(Windows,Linux,国产系统).消息拉取模块采用<mark>Elasticsearch</mark>,支持搭建集群;消息存储于本地,采用<mark>MongoDB</mark>数据库;<mark>Redis</mark>用于存储用户相关信息.
+                                是公司的主要产品,类型为即时通讯软件,支持多环境(Windows,Linux,国产系统).消息拉取模块采用<mark>Elasticsearch</mark>,支持搭建集群;消息存储于本地,采用<mark>MongoDB</mark>数据库;<mark>Redis</mark>用于存储用户相关信息及最近聊天人模块.
                             <li>工作内容:<br>&nbsp;&nbsp;&nbsp;&nbsp;
                                  1.编写服务器端登录协议相关功能,采用<mark>多线程</mark>来提高并发量,登录成功之后,相关用户信息存入<mark>Redis</mark>,方便后面模块调用;同时触发<mark>ES</mark>来拉取消息.
                             </li>
